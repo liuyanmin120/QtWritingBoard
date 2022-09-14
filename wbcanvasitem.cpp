@@ -398,8 +398,8 @@ void WbCanvasItem::initCanvas()
     m_pTempLayer = new WbTempCanvasLayer(m_size,this);
     m_pTempLayer->setZValue(10);
 
-    m_colors << QColor(Qt::black) << QColor(Qt::black) << QColor(Qt::black);
-//    m_colors << QColor(Qt::red) << QColor(Qt::blue) << QColor(Qt::cyan);
+    //m_colors << QColor(Qt::black) << QColor(Qt::black) << QColor(Qt::black);
+    m_colors << QColor(Qt::red) << QColor(Qt::blue) << QColor(Qt::cyan);
 
 //    this->setTransformOriginPoint(this->boundingRect().center());
 
